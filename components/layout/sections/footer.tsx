@@ -1,5 +1,6 @@
 import { Separator } from "@/components/ui/separator";
 import { ChevronsDownIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export const FooterSection = () => {
@@ -8,10 +9,9 @@ export const FooterSection = () => {
       <div className="p-10 bg-card border border-secondary rounded-2xl">
         <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
           <div className="col-span-full xl:col-span-2">
-            <Link href="#" className="flex font-bold items-center">
-              <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary" />
-
-              <h3 className="text-2xl">Shadcn</h3>
+            <Link href="/" className="font-medium text-lg flex items-center">
+              <Image src='/logo-transparent.png' width={100} height={100} alt="logo" />
+              CyferTech Solutions
             </Link>
           </div>
 
@@ -109,7 +109,7 @@ export const FooterSection = () => {
               href="https://github.com/leoMirandaa"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
-              Leo Miranda
+              CyferTech Solutions
             </Link>
           </h3>
         </section>
