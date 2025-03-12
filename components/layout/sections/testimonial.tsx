@@ -27,53 +27,30 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
+    name: "Emily R.",
     userName: "Product Manager",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Working with this team has transformed our social media presence! Engagement has skyrocketed, and we’re seeing real leads come through. They handle everything, from content creation to strategy—I highly recommend them!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
+    name: "Mark T",
     userName: "Cybersecurity Analyst",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "Our new WordPress website looks amazing and works flawlessly. The team understood our vision and delivered a site that’s both user-friendly and SEO-optimized. Our traffic has doubled since launching!",
     rating: 4.8,
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
+    name: " James L",
     userName: "Chief Technology Officer",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Their digital marketing strategies helped us increase sales by 200%! From PPC to SEO, everything was handled professionally, and we saw measurable results within months. Best decision we made!",
     rating: 4.9,
   },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    rating: 5.0,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
-    comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
-    rating: 5.0,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    rating: 4.9,
-  },
+
 ];
 
 export const TestimonialSection = () => {

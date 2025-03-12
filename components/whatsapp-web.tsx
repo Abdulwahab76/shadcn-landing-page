@@ -7,7 +7,7 @@ import Logo from '../public/logo-transparent.png'
 const WhatsappWeb = () => {
     return (
         <WhatsAppWidget
-            phoneNo="919884098840"
+            phoneNo="03371241063"
             position="right"
             widgetWidth="300px"
             widgetWidthMobile="260px"
