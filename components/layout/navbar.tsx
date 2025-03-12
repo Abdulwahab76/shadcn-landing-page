@@ -134,10 +134,12 @@ export const Navbar = () => {
             <div>
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
-                  <Link href="/" className="flex items-center">
-                    <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-                    Shadcn
+                  <Link href="/" className="font-medium text-lg flex items-center">
+                    <Image src='/logo-transparent.png' className="dark:invert" width={60} height={60} alt="logo" />
+                    CyferTech Solutions
                   </Link>
+
+
                 </SheetTitle>
               </SheetHeader>
 
