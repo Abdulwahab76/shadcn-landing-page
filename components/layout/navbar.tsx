@@ -77,7 +77,7 @@ export const Navbar = () => {
 
 
         <Link href="/" className="font-medium text-lg flex items-center">
-          <Image src='/logo-transparent.png' width={100} height={100} alt="logo" />
+          <Image src='/logo-transparent.png' className="dark:invert" width={100} height={100} alt="logo" />
           CyferTech Solutions
         </Link>
 
