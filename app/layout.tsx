@@ -8,8 +8,8 @@ import WhatsappWeb from "@/components/whatsapp-web";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shadcn - Landing template",
-  description: "Landing template from Shadcn",
+  title: "CyferTech Solutions",
+  description: "CyferTech Solutions for everyone",
 };
 
 export default function RootLayout({
