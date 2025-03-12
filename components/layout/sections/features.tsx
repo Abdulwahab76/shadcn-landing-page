@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Icon } from "@/components/ui/icon";
 import { icons } from "lucide-react";
+import Image from "next/image";
 
 interface FeaturesProps {
   icon: string;
@@ -8,60 +9,59 @@ interface FeaturesProps {
   description: string;
 }
 
+
 const featureList: FeaturesProps[] = [
   {
-    icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    icon: "Laptop",
+    title: "WordPress Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Professional WordPress Development for Custom Websites",
   },
   {
-    icon: "BadgeCheck",
-    title: "Social Proof",
+    icon: "Palette",
+    title: "Graphic Design Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Stunning Graphic Design Services to Elevate Your Brand.",
   },
   {
-    icon: "Goal",
-    title: "Targeted Content",
+    icon: "Facebook",
+    title: "Social Media Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Expert Social Media Management to Engage Your Audience",
   },
   {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
+    icon: "Film",
+    title: "Video Marketing",
     description:
       "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Digital Marketing Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Best Digital Marketing Services to Grow Your Business.",
   },
   {
-    icon: "Newspaper",
-    title: "Clear Headline",
+    icon: "Search",
+    title: "SEO Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Top SEO Services to Boost Your Website Rankings.",
   },
 ];
 
 export const FeaturesSection = () => {
   return (
-    <section id="features" className="container py-24 sm:py-32">
+    <section id="features" className="container py-20">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Features
+        Services
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        Grow Your Business
       </h2>
-
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        From marketing and sales to operations and strategy, we have the
+        expertise to help you achieve your goals.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -70,12 +70,12 @@ export const FeaturesSection = () => {
             <Card className="h-full bg-background border-0 shadow-none">
               <CardHeader className="flex justify-center items-center">
                 <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4">
-                  <Icon
+                  {icon == 'social' ? <Image src='/social-media.png' alt="social" width={20} height={20} /> : <Icon
                     name={icon as keyof typeof icons}
                     size={24}
                     color="hsl(var(--primary))"
                     className="text-primary"
-                  />
+                  />}
                 </div>
 
                 <CardTitle>{title}</CardTitle>

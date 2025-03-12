@@ -13,39 +13,39 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "Why is social media management important for my business?",
+    answer: "Social media management helps build brand awareness, engage with customers, and drive sales. A well-managed social media presence increases credibility and keeps your audience connected with your brand.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Can you design a custom WordPress website for my business",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Yes! We create professional, fully responsive WordPress websites tailored to your brand. Whether you need an e-commerce store, business site, or portfolio, we ensure a seamless user experience and SEO optimization.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      " How can professional graphic design improve my brand?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "High-quality visuals create a strong first impression, boost credibility, and make your brand stand out. From logos to social media posts, professional design helps communicate your message effectively.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "What does Digital Marketing Management (DMM) include?",
+    answer: "Our DMM services cover everything from SEO, PPC, and social media marketing to email campaigns and content creation. We handle strategy, execution, and optimization to maximize your online growth",
     value: "item-4",
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+      "How do I choose the right digital service for my business?",
+    answer: "It depends on your goals! Need better engagement? Go for social media management. Want a strong online presence? A WordPress website is key. Looking for branding? Graphic design helps. For full digital success, DMM is the best choice!",
     value: "item-5",
   },
 ];
 
 export const FAQSection = () => {
   return (
-    <section id="faq" className="container md:w-[700px] py-24 sm:py-32">
+    <section id="faq" className="container md:w-[700px] py-20">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
           FAQS
