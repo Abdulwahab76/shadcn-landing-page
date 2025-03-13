@@ -38,11 +38,15 @@ const routeList: RouteProps[] = [
     href: "#testimonials",
     label: "Testimonials",
   },
-
+  {
+    href: "#features",
+    label: "Services",
+  },
   {
     href: "#contact",
     label: "Contact",
   },
+
   {
     href: "#faq",
     label: "FAQ",
@@ -69,13 +73,15 @@ const featureList: FeatureProps[] = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
-    <header className="   w-full   px-10 md:px-20  mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
+    <header className="   w-full   px-10 md:px-20  mx-auto sticky border border-secondary z-40   flex justify-between items-center p-2 bg-card">
       <div className="flex items-center  gap-x-5">
 
 
         <Link href="/" className="font-medium text-lg flex items-center">
           <Image src='/logo-transparent.png' className="dark:invert" width={100} height={100} alt="logo" />
-          CyferTech Solutions
+          <p className="md:block hidden font-sans">Cyfer<span className="text-transparent  bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+            Tech</span> Solutions</p>
+
         </Link>
 
 
@@ -136,7 +142,7 @@ export const Navbar = () => {
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="font-medium text-lg flex items-center">
                     <Image src='/logo-transparent.png' className="dark:invert" width={60} height={60} alt="logo" />
-                    CyferTech Solutions
+                    <p className="md:block hidden">CyferTech Solutions</p>
                   </Link>
 
 
