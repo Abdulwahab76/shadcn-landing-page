@@ -1,5 +1,5 @@
 import { GetServerSideProps } from "next";
-import { client } from "@/lib/contentful"; // ✅ Replace with your blog fetching function
+import { client } from "@/lib/contentful";
 
 const Sitemap = () => { };
 
