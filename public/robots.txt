@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cyfertechsolutions.vercel.app
+
+# Sitemaps
+Sitemap: https://cyfertechsolutions.vercel.app/sitemap.xml

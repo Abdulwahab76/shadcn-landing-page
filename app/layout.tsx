@@ -7,10 +7,41 @@ import { ThemeProvider } from "@/components/layout/theme-provider";
 import WhatsappWeb from "@/components/whatsapp-web";
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "CyferTech Solutions",
-  description: "CyferTech Solutions for everyone",
+export const metadata = {
+  title: "CyferTech Solutions - Innovative Tech for Everyone",
+  description: "Providing cutting-edge technology solutions for businesses and individuals.",
+
+  openGraph: {
+    title: "CyferTech Solutions - Innovative Tech for Everyone",
+    description: "Providing cutting-edge technology solutions for businesses and individuals.",
+    url: "https://cyfertechsolutions.vercel.app/",
+    siteName: "CyferTech Solutions",
+    images: [
+      {
+        url: "https://cyfertechsolutions.vercel.app/logo-transparent.png",
+        width: 200,
+        height: 200,
+        alt: "CyferTech Solutions Logo",
+      },
+    ],
+    type: "website",
+  },
+
+
+  twitter: {
+    card: "summary_large_image",
+    title: "CyferTech Solutions - Innovative Tech for Everyone",
+    description: "Providing cutting-edge technology solutions for businesses and individuals.",
+    images: ["https://cyfertechsolutions.vercel.app/logo-transparent.png"],
+  },
+
+  metadataBase: new URL("https://cyfertechsolutions.vercel.app/"),
+  alternates: {
+    canonical: "https://cyfertechsolutions.vercel.app/",
+  },
+  robots: "index, follow",
 };
+
 
 export default function RootLayout({
   children,
