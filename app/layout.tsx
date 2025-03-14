@@ -10,7 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "CyferTech Solutions - Innovative Tech for Everyone",
   description: "Providing cutting-edge technology solutions for businesses and individuals.",
-
+  other: {
+    "google-site-verification": "1QPzQdxEBZOEeLaMv6CSEvNqrfrWeGPmOQqj0Ig90rE",
+  },
   openGraph: {
     title: "CyferTech Solutions - Innovative Tech for Everyone",
     description: "Providing cutting-edge technology solutions for businesses and individuals.",
