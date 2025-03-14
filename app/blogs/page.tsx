@@ -1,6 +1,6 @@
 /* page.tsx */
 import Link from "next/link";
-import { client, BlogPostFields } from "@/lib/contentful";
+import { client } from "@/lib/contentful";
 import Image from "next/image";
 
 const getBlogEntries = async (): Promise<any> => {
@@ -11,7 +11,6 @@ const getBlogEntries = async (): Promise<any> => {
 export default async function BlogPosts() {
 
     const blogEntries = await getBlogEntries();
-    console.log(blogEntries, 'blog=====');
 
     return (
         <main className="flex max-w-6xl w-full mx-auto py-6 px-4 flex-col  h-screen ">
