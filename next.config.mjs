@@ -25,10 +25,10 @@ const nextConfig = {
     return [
       {
         source: "/sitemap.xml",
-        destination: "/api/sitemap",
+        destination: "/api/sitemap.xml",
       },
     ];
-  },
+  }
 };
 
 export default nextConfig;
