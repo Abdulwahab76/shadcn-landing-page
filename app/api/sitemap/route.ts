@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { client } from "@/lib/contentful"; // ✅ Fetch blog posts from Contentful
+import { client } from "@/lib/contentful";
 
 const getBlogEntries = async (): Promise<any> => {
   const entries = await client.getEntries({ content_type: "blogs" });
@@ -15,7 +15,7 @@ export async function GET() {
       .map(
         (post: any) => `
       <url>
-        <loc>https://cyfertechsolutions.vercel.app/blog/${post.fields.slug}</loc>
+        <loc>https://cyfertechsolutions.vercel.app/blogs/${post.fields.slug}</loc>
         <lastmod>${new Date(post.fields.date).toISOString()}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
