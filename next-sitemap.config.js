@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: "https://cyfertechsolutions.vercel.app",
+    siteUrl: "https://cyfertechsolution.netlify.app",
     generateRobotsTxt: true,
     generateIndexSitemap: false,
     sitemapSize: 5000,
