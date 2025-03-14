@@ -3,7 +3,7 @@ module.exports = {
     siteUrl: "https://cyfertechsolutions.vercel.app",
     generateRobotsTxt: true,
     generateIndexSitemap: false,
-    exclude: ["/", "/about", "/contact", "/services"],
+    sitemapSize: 5000,
+    exclude: ["/api/*"], // Exclude API routes instead of pages
     outDir: "public",
-
 };
