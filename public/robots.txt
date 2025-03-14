@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://cyfertechsolution.netlify.app
+Host: https://cyfertechsolutions.netlify.app/sitemap.xml
 
 # Sitemaps
-Sitemap: https://cyfertechsolution.netlify.app/sitemap.xml
+Sitemap: https://cyfertechsolutions.netlify.app/sitemap.xml
