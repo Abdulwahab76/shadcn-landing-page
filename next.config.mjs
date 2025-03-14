@@ -21,6 +21,14 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.ctfassets.net' }
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: "/sitemap.xml",
+        destination: "/api/sitemap",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
