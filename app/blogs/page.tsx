@@ -19,7 +19,7 @@ export default async function BlogPosts() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[...blogEntries.items, ...blogEntries.items, ...blogEntries.items].map((singlePost: any) => {
-                    const { slug, title, date, content, featuredImage } = singlePost.fields;
+                    const { slug, title, date, content, featuredImage, description } = singlePost.fields;
 
                     return (
                         <Card key={slug} className="bg-card border   shadow-md rounded-lg">
@@ -29,16 +29,16 @@ export default async function BlogPosts() {
                                     width={500}
                                     height={300}
                                     alt={title}
-                                    className="w-full h-56 object-cover rounded-t-lg"
+                                    className="w-full h-56 object-cover rounded-t-lg  "
                                 />
                             )}
 
                             <CardContent className="p-4">
                                 <h5 className="text-xl font-semibold text-white">{title}</h5>
                                 <p className="text-sm text-gray-300">{new Date(date).toDateString()}</p>
-                                {/* <p className="text-gray-400 leading-normal mt-2 line-clamp-3">
-                                    {content.substring(0, 120)}...
-                                </p> */}
+                                <p className="text-gray-400 leading-normal mt-2 line-clamp-3">
+                                    {description}...
+                                </p>
                             </CardContent>
 
                             <CardFooter className="p-4">

@@ -25,15 +25,19 @@ export default async function BlogPost({ params }: { params: { slug: string } })
         renderNode: {
             'embedded-asset-block': (node: any) => {
                 const { title, file } = node.data.target.fields;
+                console.log(node, 'node==');
+
                 return (
-                    <div className="relative w-full h-96 my-6">
+                    <div className="relative    my-6">
                         <Image
                             src={`https:${file.url}`}
                             alt={title}
-                            layout="fill"
-                            objectFit="cover"
-                            className="rounded-lg shadow-md"
+                            width={800}
+                            height={800}
+                            objectFit="fill"
+                            className="rounded-lg shadow-md w-full"
                         />
+
                     </div>
                 );
             },

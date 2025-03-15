@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import WhatsappWeb from "@/components/whatsapp-web";
+import { FooterSection } from "@/components/layout/sections/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -63,6 +64,7 @@ export default function RootLayout({
 
           {children}
           <WhatsappWeb />
+          <FooterSection />
         </ThemeProvider>
       </body>
     </html>
