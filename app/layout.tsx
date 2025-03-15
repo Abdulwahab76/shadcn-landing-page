@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/layout/theme-provider";
 import WhatsappWeb from "@/components/whatsapp-web";
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "CyferTech Solutions - Innovative Tech for Everyone",
   description: "Providing cutting-edge technology solutions for businesses and individuals.",
   other: {

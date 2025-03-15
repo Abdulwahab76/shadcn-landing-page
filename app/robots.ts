@@ -4,14 +4,11 @@ export default function robots(): MetadataRoute.Robots {
     return {
         rules: [
             {
-                userAgent: 'Googlebot',
-                allow: ['/'],
-                disallow: '/private/',
+                userAgent: '*',
+                allow: '/',
+                disallow: ['/admin', '/privacy'],
             },
-            {
-                userAgent: ['Applebot', 'Bingbot'],
-                disallow: ['/'],
-            },
+
         ],
         sitemap: 'https://cyfertechsolutions.netlify.app/sitemap.xml',
     }

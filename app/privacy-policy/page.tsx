@@ -1,4 +1,15 @@
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+    title: 'Privacy Policy',
+    robots: {
+        index: false,
+        follow: true
+    }
+}
 export default function PrivacyPolicy() {
+
     return (
         <div className="flex flex-col gap-y-3 p-5">
             <h1>Privacy Policy</h1>
