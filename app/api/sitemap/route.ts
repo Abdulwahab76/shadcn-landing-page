@@ -16,7 +16,7 @@ export async function GET() {
     { loc: 'https://cyfertechsolution.netlify.app/#contact', priority: '0.8', changefreq: 'monthly' },
     { loc: 'https://cyfertechsolution.netlify.app/#faqs', priority: '0.8', changefreq: 'monthly' },
     { loc: 'https://cyfertechsolution.netlify.app/privacy-policy', priority: '0.8', changefreq: 'yearly' },
-    { loc: 'https://cyfertechsolution.netlify.app/terms-of-service', priority: '0.8', changefreq: 'yearly' },
+    { loc: 'https://cyfertechsolution.netlify.app/terms-of-services', priority: '0.8', changefreq: 'yearly' },
     { loc: 'https://cyfertechsolution.netlify.app/blogs', priority: '0.8', changefreq: 'weekly' },
   ];
 

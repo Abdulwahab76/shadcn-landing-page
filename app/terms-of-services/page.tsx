@@ -9,7 +9,7 @@ const TermsOfService = () => {
             <h2>1. Introduction</h2>
             <p>
                 Welcome to <strong>CyferTech Solutions</strong> (hereinafter referred to
-                as "the Site"). These Terms of Service ("Terms") govern your use of the
+                as &quot;the Site&quot;). These Terms of Service (&quot;Terms&quot;) govern your use of the
                 Site and any related services offered through it. By accessing or using
                 the Site, you agree to be bound by these Terms. If you do not agree with
                 any part of these Terms, please refrain from using the Site.
@@ -21,7 +21,7 @@ const TermsOfService = () => {
                 <li>
                     You may not engage in activities that may harm or disrupt the Site,
                     including but not limited to transmitting viruses, hacking, or otherwise
-                    interfering with the Site’s functionality.
+                    interfering with the Site&rsquo;s functionality.
                 </li>
                 <li>You may not use the Site for any illegal or unauthorized purpose.</li>
             </ul>
@@ -95,7 +95,7 @@ const TermsOfService = () => {
             <p>
                 You agree to indemnify and hold harmless <strong>CyferTech Solutions</strong>,
                 its officers, directors, employees, and affiliates from any claims, losses,
-                liabilities, or expenses (including attorneys' fees) arising from your use of
+                liabilities, or expenses (including attorneys&apos; fees) arising from your use of
                 the Site or violation of these Terms.
             </p>
 
@@ -137,7 +137,7 @@ const TermsOfService = () => {
 
             <h2>12. Changes to Terms of Service</h2>
             <p>
-                <strong>CyferTech Solutions</strong> reserves the right to modify, update, or change these Terms at any time. Any changes will be posted on this page with an updated "Effective Date".
+                <strong>CyferTech Solutions</strong> reserves the right to modify, update, or change these Terms at any time. Any changes will be posted on this page with an updated &quot;Effective Date&quot;.
             </p>
             <ul>
                 <li>
