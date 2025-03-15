@@ -22,14 +22,14 @@ export const FooterSection = () => {
             <span>|</span>
             <Link
               target="_blank"
-              href="https://cyfertechsolution.netlify.app/privacy-policy"
+              href="https://cyfertechsolutions.netlify.app/privacy-policy"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
               Privacy Policy
             </Link>
             <Link
               target="_blank"
-              href="https://cyfertechsolution.netlify.app/terms-of-services"
+              href="https://cyfertechsolutions.netlify.app/terms-of-services"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
               Terms of Services
