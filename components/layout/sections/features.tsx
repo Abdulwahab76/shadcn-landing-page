@@ -51,7 +51,7 @@ const featureList: FeaturesProps[] = [
 
 export const FeaturesSection = () => {
   return (
-    <section id="features" className="container py-20">
+    <section id="services" className="container py-20">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         Services
       </h2>

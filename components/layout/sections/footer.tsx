@@ -10,14 +10,29 @@ export const FooterSection = () => {
 
         <Separator className="my-6" />
         <section className="">
-          <h3 >
+          <h3 className="flex gap-x-1 justify-center">
             &copy; 20245 Designed and developed by
             <Link
               target="_blank"
-              href="https://github.com/leoMirandaa"
+              href="https://cyfertechsolution.netlify.app"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
               CyferTech Solutions
+            </Link>
+            <span>|</span>
+            <Link
+              target="_blank"
+              href="https://cyfertechsolution.netlify.app/privacy-policy"
+              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              target="_blank"
+              href="https://cyfertechsolution.netlify.app/terms-of-services"
+              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
+            >
+              Terms of Services
             </Link>
           </h3>
         </section>

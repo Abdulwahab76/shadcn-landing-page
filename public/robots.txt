@@ -1,9 +1,6 @@
-# *
+ 
 User-agent: *
 Allow: /
 
-# Host
-Host: https://cyfertechsolutions.netlify.app/sitemap.xml
-
-# Sitemaps
+# Sitemap location
 Sitemap: https://cyfertechsolutions.netlify.app/sitemap.xml
