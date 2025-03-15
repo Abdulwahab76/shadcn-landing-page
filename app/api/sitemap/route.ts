@@ -10,20 +10,20 @@ export async function GET() {
   const blogs = await getBlogEntries();
 
   const staticPages = [
-    { loc: 'https://cyfertechsolution.netlify.app/', priority: '1.0', changefreq: 'daily' },
-    { loc: 'https://cyfertechsolution.netlify.app/#about', priority: '0.8', changefreq: 'monthly' },
-    { loc: 'https://cyfertechsolution.netlify.app/#services', priority: '0.8', changefreq: 'monthly' },
-    { loc: 'https://cyfertechsolution.netlify.app/#contact', priority: '0.8', changefreq: 'monthly' },
-    { loc: 'https://cyfertechsolution.netlify.app/#faqs', priority: '0.8', changefreq: 'monthly' },
-    { loc: 'https://cyfertechsolution.netlify.app/privacy-policy', priority: '0.8', changefreq: 'yearly' },
-    { loc: 'https://cyfertechsolution.netlify.app/terms-of-services', priority: '0.8', changefreq: 'yearly' },
-    { loc: 'https://cyfertechsolution.netlify.app/blogs', priority: '0.8', changefreq: 'weekly' },
+    { loc: 'https://cyfertechsolutions.netlify.app/', priority: '1.0', changefreq: 'daily' },
+    { loc: 'https://cyfertechsolutions.netlify.app/#about', priority: '0.8', changefreq: 'monthly' },
+    { loc: 'https://cyfertechsolutions.netlify.app/#services', priority: '0.8', changefreq: 'monthly' },
+    { loc: 'https://cyfertechsolutions.netlify.app/#contact', priority: '0.8', changefreq: 'monthly' },
+    { loc: 'https://cyfertechsolutions.netlify.app/#faqs', priority: '0.8', changefreq: 'monthly' },
+    { loc: 'https://cyfertechsolutions.netlify.app/privacy-policy', priority: '0.8', changefreq: 'yearly' },
+    { loc: 'https://cyfertechsolutions.netlify.app/terms-of-services', priority: '0.8', changefreq: 'yearly' },
+    { loc: 'https://cyfertechsolutions.netlify.app/blogs', priority: '0.8', changefreq: 'weekly' },
   ];
 
   // Adding dynamic blog pages to the sitemap
   const blogUrls = blogs.items.map(
     (post: any) => ({
-      loc: `https://cyfertechsolution.netlify.app/blogs/${post.fields.slug}`,
+      loc: `https://cyfertechsolutions.netlify.app/blogs/${post.fields.slug}`,
       lastmod: new Date(post.fields.date).toISOString(),
       changefreq: 'weekly',
       priority: '0.8',
