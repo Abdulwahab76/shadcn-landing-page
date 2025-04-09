@@ -148,7 +148,7 @@ const TermsOfService = () => {
             <h2>13. Contact Us</h2>
             <p>If you have any questions or concerns about these Terms of Service, please contact us at:</p>
             <ul>
-                <li><strong>Email:</strong> <a href="mailto:cyfertechsolutions@gmail.com">cyfertechsolutions@gmail.com</a></li>
+                <li><strong>Email:</strong> <a href="mailto:cyfertechsolution@gmail.com">cyfertechsolution@gmail.com</a></li>
                 <li><strong>Phone:</strong> +92 3371241063</li>
             </ul>
         </div>

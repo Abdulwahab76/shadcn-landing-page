@@ -10,7 +10,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const blogEntries = await getBlogEntries();
     const blogs: MetadataRoute.Sitemap = blogEntries.items.map((post: any, ind: number) => (
         {
-            url: `https://cyfertechsolutions.netlify.app/blogs/${post.fields.slug}`,
+            url: `https://cyfertechsolution.netlify.app/blogs/${post.fields.slug}`,
             lastModified: post.fields.date,
             changeFrequency: 'monthly',
             priority: 0.5
@@ -20,25 +20,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     return [
         {
-            url: 'https://cyfertechsolutions.netlify.app/blogs',
+            url: 'https://cyfertechsolution.netlify.app/blogs',
             lastModified: new Date(),
             changeFrequency: 'yearly',
             priority: 1
         },
         {
-            url: 'https://cyfertechsolutions.netlify.app/#about',
+            url: 'https://cyfertechsolution.netlify.app/#about',
             lastModified: new Date(),
             changeFrequency: 'yearly',
             priority: 1
         },
         {
-            url: 'https://cyfertechsolutions.netlify.app/#faqs',
+            url: 'https://cyfertechsolution.netlify.app/#faqs',
             lastModified: new Date(),
             changeFrequency: 'yearly',
             priority: 1
         },
         {
-            url: 'https://cyfertechsolutions.netlify.app/#contact',
+            url: 'https://cyfertechsolution.netlify.app/#contact',
             lastModified: new Date(),
             changeFrequency: 'yearly',
             priority: 1

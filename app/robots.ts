@@ -10,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
             },
 
         ],
-        sitemap: 'https://cyfertechsolutions.netlify.app/sitemap.xml',
+        sitemap: 'https://cyfertechsolution.netlify.app/sitemap.xml',
     }
 }

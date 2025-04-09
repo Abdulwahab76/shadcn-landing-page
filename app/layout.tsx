@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "CyferTech Solutions - Innovative Tech for Everyone",
     description: "Providing cutting-edge technology solutions for businesses and individuals.",
-    url: "https://cyfertechsolutions.netlify.app/",
+    url: "https://cyfertechsolution.netlify.app/",
     siteName: "CyferTech Solutions",
     images: [
       {
-        url: "https://cyfertechsolutions.netlify.app/logo-transparent.png",
+        url: "https://cyfertechsolution.netlify.app/logo-transparent.png",
         width: 200,
         height: 200,
         alt: "CyferTech Solutions Logo",
@@ -35,12 +35,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "CyferTech Solutions - Innovative Tech for Everyone",
     description: "Providing cutting-edge technology solutions for businesses and individuals.",
-    images: ["https://cyfertechsolutions.netlify.app/logo-transparent.png"],
+    images: ["https://cyfertechsolution.netlify.app/logo-transparent.png"],
   },
 
-  metadataBase: new URL("https://cyfertechsolutions.netlify.app/"),
+  metadataBase: new URL("https://cyfertechsolution.netlify.app/"),
   alternates: {
-    canonical: "https://cyfertechsolutions.netlify.app/",
+    canonical: "https://cyfertechsolution.netlify.app/",
   },
   robots: "index, follow",
 };

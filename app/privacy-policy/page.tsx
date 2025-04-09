@@ -114,11 +114,11 @@ export default function PrivacyPolicy() {
                         <strong>Website</strong> refers to Cyfertech Solutions, accessible
                         from{' '}
                         <a
-                            href="https://cyfertechsolutions.netlify.app/"
+                            href="https://cyfertechsolution.netlify.app/"
                             rel="external nofollow noopener"
                             target="_blank"
                         >
-                            https://cyfertechsolutions.netlify.app/
+                            https://cyfertechsolution.netlify.app/
                         </a>
                     </p>
                 </li>
