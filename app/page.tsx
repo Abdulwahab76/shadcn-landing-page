@@ -12,8 +12,8 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "CyferTech Solutions",
-  description: "CyferTech Solutions for everyone",
+  title: "Cyfertech solution",
+  description: "Cyfertech solution for everyone",
 
 };
 

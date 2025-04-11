@@ -9,22 +9,22 @@ import { FooterSection } from "@/components/layout/sections/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CyferTech Solutions - Innovative Tech for Everyone",
+  title: "Cyfertech solution - Innovative Tech for Everyone",
   description: "Providing cutting-edge technology solutions for businesses and individuals.",
   other: {
     "google-site-verification": "1QPzQdxEBZOEeLaMv6CSEvNqrfrWeGPmOQqj0Ig90rE",
   },
   openGraph: {
-    title: "CyferTech Solutions - Innovative Tech for Everyone",
+    title: "Cyfertech solution - Innovative Tech for Everyone",
     description: "Providing cutting-edge technology solutions for businesses and individuals.",
     url: "https://cyfertechsolution.netlify.app/",
-    siteName: "CyferTech Solutions",
+    siteName: "Cyfertech solution",
     images: [
       {
         url: "https://cyfertechsolution.netlify.app/logo-transparent.png",
         width: 200,
         height: 200,
-        alt: "CyferTech Solutions Logo",
+        alt: "Cyfertech solution Logo",
       },
     ],
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "CyferTech Solutions - Innovative Tech for Everyone",
+    title: "Cyfertech solution - Innovative Tech for Everyone",
     description: "Providing cutting-edge technology solutions for businesses and individuals.",
     images: ["https://cyfertechsolution.netlify.app/logo-transparent.png"],
   },

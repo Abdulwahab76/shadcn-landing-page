@@ -8,7 +8,7 @@ const TermsOfService = () => {
 
             <h2>1. Introduction</h2>
             <p>
-                Welcome to <strong>CyferTech Solutions</strong> (hereinafter referred to
+                Welcome to <strong>Cyfertech solution</strong> (hereinafter referred to
                 as &quot;the Site&quot;). These Terms of Service (&quot;Terms&quot;) govern your use of the
                 Site and any related services offered through it. By accessing or using
                 the Site, you agree to be bound by these Terms. If you do not agree with
@@ -45,19 +45,19 @@ const TermsOfService = () => {
             <p>
                 The content, features, and functionality of the Site, including but not
                 limited to text, graphics, logos, images, and software, are owned by or
-                licensed to <strong>CyferTech Solutions</strong> and are protected by copyright, trademark, and other intellectual property laws.
+                licensed to <strong>Cyfertech solution</strong> and are protected by copyright, trademark, and other intellectual property laws.
             </p>
             <ul>
                 <li>
                     You may not copy, modify, distribute, or reproduce any content from
-                    the Site without explicit permission from <strong>CyferTech Solutions</strong>.
+                    the Site without explicit permission from <strong>Cyfertech solution</strong>.
                 </li>
             </ul>
 
             <h2>5. User-Generated Content</h2>
             <p>
                 By submitting content to the Site (including reviews, comments, or other
-                materials), you grant <strong>CyferTech Solutions</strong> a non-exclusive,
+                materials), you grant <strong>Cyfertech solution</strong> a non-exclusive,
                 royalty-free, worldwide license to use, display, and distribute such
                 content on the Site and in marketing materials.
             </p>
@@ -81,7 +81,7 @@ const TermsOfService = () => {
 
             <h2>7. Limitation of Liability</h2>
             <p>
-                <strong>CyferTech Solutions</strong> will not be liable for any damages arising
+                <strong>Cyfertech solution</strong> will not be liable for any damages arising
                 from the use or inability to use the Site, including but not limited to direct,
                 indirect, incidental, or consequential damages.
             </p>
@@ -93,7 +93,7 @@ const TermsOfService = () => {
 
             <h2>8. Indemnification</h2>
             <p>
-                You agree to indemnify and hold harmless <strong>CyferTech Solutions</strong>,
+                You agree to indemnify and hold harmless <strong>Cyfertech solution</strong>,
                 its officers, directors, employees, and affiliates from any claims, losses,
                 liabilities, or expenses (including attorneys&apos; fees) arising from your use of
                 the Site or violation of these Terms.
@@ -101,7 +101,7 @@ const TermsOfService = () => {
 
             <h2>9. Termination</h2>
             <p>
-                <strong>CyferTech Solutions</strong> reserves the right to suspend or terminate
+                <strong>Cyfertech solution</strong> reserves the right to suspend or terminate
                 your access to the Site at any time, without notice, for any violation of these Terms or other behavior that we deem inappropriate.
             </p>
             <ul>
@@ -114,7 +114,7 @@ const TermsOfService = () => {
             <h2>10. Third-Party Links</h2>
             <p>
                 The Site may contain links to third-party websites that are not owned or
-                controlled by <strong>CyferTech Solutions</strong>.
+                controlled by <strong>Cyfertech solution</strong>.
             </p>
             <ul>
                 <li>
@@ -137,7 +137,7 @@ const TermsOfService = () => {
 
             <h2>12. Changes to Terms of Service</h2>
             <p>
-                <strong>CyferTech Solutions</strong> reserves the right to modify, update, or change these Terms at any time. Any changes will be posted on this page with an updated &quot;Effective Date&quot;.
+                <strong>Cyfertech solution</strong> reserves the right to modify, update, or change these Terms at any time. Any changes will be posted on this page with an updated &quot;Effective Date&quot;.
             </p>
             <ul>
                 <li>

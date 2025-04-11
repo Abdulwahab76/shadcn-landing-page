@@ -146,7 +146,7 @@ export const Navbar = () => {
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="font-medium text-lg flex items-center">
                     <Image src='/logo-transparent.png' className="dark:invert" width={60} height={60} alt="logo" />
-                    <p className="md:block hidden">CyferTech Solutions</p>
+                    <p className="md:block hidden">Cyfertech solution</p>
                   </Link>
 
 

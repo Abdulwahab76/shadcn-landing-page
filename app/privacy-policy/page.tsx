@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
                 </li>
                 <li>
                     <p>
-                        <strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Cyfertech Solutions.
+                        <strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Cyfertech solution.
                     </p>
                 </li>
                 <li>
@@ -111,7 +111,7 @@ export default function PrivacyPolicy() {
                 </li>
                 <li>
                     <p>
-                        <strong>Website</strong> refers to Cyfertech Solutions, accessible
+                        <strong>Website</strong> refers to Cyfertech solution, accessible
                         from{' '}
                         <a
                             href="https://cyfertechsolution.netlify.app/"

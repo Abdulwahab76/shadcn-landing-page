@@ -22,7 +22,7 @@ const WhatsappWeb = () => {
             headerIconColor="pink"
             headerTxtColor="white"
             headerBgColor="#161412"
-            headerTitle="CyferTech Solutions"
+            headerTitle="Cyfertech solution"
             headerCaption="Online"
             bodyBgColor="#bbb"
             chatPersonName="Support"

@@ -17,7 +17,7 @@ export const FooterSection = () => {
               href="https://cyfertechsolution.netlify.app"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
-              CyferTech Solutions
+              Cyfertech solution
             </Link>
             <span>|</span>
             <Link
