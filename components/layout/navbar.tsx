@@ -84,7 +84,7 @@ export const Navbar = () => {
         <Link href="/" className="font-medium text-lg flex items-center">
           <Image src='/logo-transparent.png' className="dark:invert" width={100} height={100} alt="logo" />
           <p className="md:block hidden font-sans">Cyfer<span className="text-transparent  bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-            Tech</span> Solutions</p>
+            Tech</span> Solution</p>
 
         </Link>
 

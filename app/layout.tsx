@@ -10,13 +10,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Cyfertech solution - Innovative Tech for Everyone",
-  description: "Providing cutting-edge technology solutions for businesses and individuals.",
+  description: "Providing cutting-edge technology solution for businesses and individuals.",
   other: {
     "google-site-verification": "1QPzQdxEBZOEeLaMv6CSEvNqrfrWeGPmOQqj0Ig90rE",
   },
   openGraph: {
     title: "Cyfertech solution - Innovative Tech for Everyone",
-    description: "Providing cutting-edge technology solutions for businesses and individuals.",
+    description: "Providing cutting-edge technology solution for businesses and individuals.",
     url: "https://cyfertechsolution.netlify.app/",
     siteName: "Cyfertech solution",
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Cyfertech solution - Innovative Tech for Everyone",
-    description: "Providing cutting-edge technology solutions for businesses and individuals.",
+    description: "Providing cutting-edge technology solution for businesses and individuals.",
     images: ["https://cyfertechsolution.netlify.app/logo-transparent.png"],
   },
 

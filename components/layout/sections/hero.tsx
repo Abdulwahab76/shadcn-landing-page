@@ -27,7 +27,7 @@ export const HeroSection = () => {
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {`Discover the best digital marketing services to help you grow your business. From SEO to social media, we provide expert solutions tailored to your needs.`}
+            {`Discover the best digital marketing services to help you grow your business. From SEO to social media, we provide expert solution tailored to your needs.`}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
