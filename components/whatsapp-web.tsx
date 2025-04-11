@@ -14,11 +14,11 @@ const WhatsappWeb = () => {
             autoOpen={true}
             autoOpenTimer={5000}
             messageBox={true}
-            messageBoxTxt="Hi Team, is there any related service available ?"
+            messageBoxTxt="Hi Team, is there any related service available?"
             iconSize="40"
             iconColor="white"
             iconBgColor="green"
-            headerIcon='https://i.ibb.co/q33HrJWY/logo-transparent.png'
+            headerIcon='https://i.ibb.co/ycMC6bXW/logo-2.png'
             headerIconColor="pink"
             headerTxtColor="white"
             headerBgColor="#161412"
@@ -26,7 +26,17 @@ const WhatsappWeb = () => {
             headerCaption="Online"
             bodyBgColor="#bbb"
             chatPersonName="Support"
-            chatMessage={<>Hi there 👋 <br /><br /> How can I help you?</>}
+            chatMessage={<>
+                Hi there 👋 <br /><br />
+                Welcome to [Your Company Name]! 🚀<br /><br />
+                We offer professional digital solutions including:<br />
+                • WordPress Development 🖥️<br />
+                • Graphic Design 🎨<br />
+                • SEO & Google Ranking 📈<br />
+                • Social Media Marketing 📱<br />
+                • Digital Marketing 🔧<br /><br />
+                Let us know how we can help grow your business today!
+            </>}
             footerBgColor="#999"
             placeholder="Type a message.."
             btnBgColor="white"
